@@ -43,10 +43,13 @@
         </plugin>
 
         <plugin>
-            <groupId>org.owasp</groupId>
-            <artifactId>dependency-check-maven</artifactId>
-            <version>9.0.0</version>
-        </plugin>
+    <groupId>org.owasp</groupId>
+    <artifactId>dependency-check-maven</artifactId>
+    <version>9.0.0</version>
+    <configuration>
+        <nvdApiKey>834e4e39-45e3-4510-bf0a-57b3db75ae59</nvdApiKey>
+    </configuration>
+</plugin>
 
     </plugins>
 </build>
